@@ -26,3 +26,5 @@ __External jar dependencies__
 1. Apache Common's Maths library is used to generate random numbers from a Gaussian distribution, and also calculate percentile value among simulations.
 2. Junit for unit tests.
 
+Run the unit MontoCarloSimulatorTest to print the outcomes for provided portfolio inputs.
+
