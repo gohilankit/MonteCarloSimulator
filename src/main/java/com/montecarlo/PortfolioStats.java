@@ -2,9 +2,9 @@ package com.montecarlo;
 
 public class PortfolioStats {
 
-	double bestCase;		//90th Percentile value among 10000 simulations.
-	double worstCase;		//10th Percentile value among 10000 simulations.
-	double median;			//Median value among 10000 simulations.
+	double bestCase;		//90th Percentile value among all simulations.
+	double worstCase;		//10th Percentile value among all simulations.
+	double median;			//Median value among all simulations.
 	
 	public PortfolioStats(double bestCase, double worstCase, double median) {
 		this.bestCase = bestCase;
